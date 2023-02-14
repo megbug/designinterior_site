@@ -140,14 +140,16 @@ main section:nth-of-type(2) article p{
 
 main section:nth-of-type(2) div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-main section:nth-of-type(2) div img{
+main section:nth-of-type(2) div .image_card{
+    display: flex;
+    flex-direction: column;
     width: 25%;
 }
 
-main section:nth-of-type(2) div p{
+main section:nth-of-type(2) div .image_card p{
     font-family: 'work_sans_reg';
     font-size: 1.4rem;
     color: #000;
@@ -157,9 +159,9 @@ main section:nth-of-type(2) div p{
     word-spacing: 0.8rem;
 }
 
-main section:nth-of-type(2) div:nth-of-type(3) {
-    margin-top: 10vh;
-    margin-bottom: 20vh;
+main section:nth-of-type(2) iframe {
+    display: block;
+    margin: 10vh auto 20vh auto;
 }
 
 /* ====================================== */
